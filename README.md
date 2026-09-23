@@ -14,7 +14,7 @@
 <a href="https://realtime-venus.github.io/"><img src="https://img.shields.io/badge/Project_Page-4c9aff.svg?logo=googlechrome&logoColor=white" alt="Project Page"></a>
 <a href="https://huggingface.co/inclusionAI/Realtime-Venus"><img src="https://img.shields.io/badge/Hugging_Face-Realtime--Venus-FFD21E.svg?logo=huggingface&logoColor=000" alt="Realtime-Venus on Hugging Face"></a>
 <a href="https://www.modelscope.cn/models/inclusionAI/Realtime-Venus"><img src="https://img.shields.io/badge/ModelScope-Realtime--Venus-624AFF.svg?logo=modelscope&logoColor=white" alt="Realtime-Venus on ModelScope"></a>
-<a href="https://arxiv.org/abs/2609.13814"><img src="https://img.shields.io/badge/arXiv-2609.13814-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"></a>
+<a href="https://arxiv.org/pdf/2609.13814"><img src="https://img.shields.io/badge/arXiv-2609.13814-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"></a>
 <a href="https://github.com/inclusionAI/Realtime-Venus"><img src="https://img.shields.io/badge/GitHub-Realtime--Venus-181717.svg?logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
@@ -41,7 +41,7 @@ The project brings together three components:
 - **Asynchronous delegation.** A model can hand a natural-language task to Harness for reasoning or tool execution while live interaction continues.
 - **Results in the same conversation.** Harness prepares a reply; the conversational model handles its timing and native speech output. Work tracking separates task completion from spoken delivery.
 
-The [paper](https://arxiv.org/html/2609.13814v1) describes the model family, dual-loop runtime, training data, and evaluation. **This source release includes the Omni model integration, the reusable Harness package, and a browser demo using a Codex task backend.** The demo's microphone-only mode also uses Omni.
+The [paper](https://arxiv.org/pdf/2609.13814) describes the model family, dual-loop runtime, training data, and evaluation. **This source release includes the Omni model integration, the reusable Harness package, and a browser demo using a Codex task backend.** The demo's microphone-only mode also uses Omni.
 
 ## Quick start
 
@@ -171,9 +171,9 @@ Download the Android demo: [Realtime-Venus-0918.apk — Beta](https://github.com
 
 ## Results
 
-<p align="center"><img src="assets/paper-understanding.svg" width="100%" alt="Paper Figure 1: radar charts comparing video understanding for Omni and audio understanding for Audio" /><br /><sub>Figure 1. Video and audio understanding results from the <a href="https://arxiv.org/html/2609.13814v1#S0.F1">paper</a>.</sub></p>
+<p align="center"><img src="assets/paper-understanding.svg" width="100%" alt="Paper Figure 1: radar charts comparing video understanding for Omni and audio understanding for Audio" /><br /><sub>Figure 1. Video and audio understanding results from the <a href="https://arxiv.org/pdf/2609.13814">paper</a>.</sub></p>
 
-<p align="center"><img src="assets/paper-duplex.svg" width="100%" alt="Paper Figure 2: full-duplex benchmark comparisons for interruption handling and continuation under different types of overlapping speech" /><br /><sub>Figure 2. Full-duplex interaction results from the <a href="https://arxiv.org/html/2609.13814v1#S0.F2">paper</a>.</sub></p>
+<p align="center"><img src="assets/paper-duplex.svg" width="100%" alt="Paper Figure 2: full-duplex benchmark comparisons for interruption handling and continuation under different types of overlapping speech" /><br /><sub>Figure 2. Full-duplex interaction results from the <a href="https://arxiv.org/pdf/2609.13814">paper</a>.</sub></p>
 
 ## Code map
 

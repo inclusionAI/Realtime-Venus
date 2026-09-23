@@ -1,6 +1,6 @@
 # Paper figures
 
-The following SVGs are reproduced without modification from **Venus Team, Realtime-Venus: A full-duplex interaction system with asynchronous delegation**, [arXiv:2609.13814v1](https://arxiv.org/html/2609.13814v1), retrieved 2026-09-17.
+The following SVGs are reproduced without modification from **Venus Team, Realtime-Venus: A full-duplex interaction system with asynchronous delegation**, [arXiv:2609.13814v1](https://arxiv.org/pdf/2609.13814), retrieved 2026-09-17.
 
 | Local asset | Paper figure | Original source |
 | --- | --- | --- |

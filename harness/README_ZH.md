@@ -1,12 +1,12 @@
 # Realtime-Venus-Harness
 
-[English](README.md) · **简体中文** · [项目总览](../README_ZH.md) · [启动 Demo](../demos/README_ZH.md) · [论文](https://arxiv.org/html/2609.13814v1#S5)
+[English](README.md) · **简体中文** · [项目总览](../README_ZH.md) · [启动 Demo](../demos/README_ZH.md) · [论文](https://arxiv.org/pdf/2609.13814)
 
 Harness 接收 `<delegate>...</delegate>` 请求，异步执行任务并将结果送回原会话，管理任务上下文、执行、进度、取消、续接与交付。
 
 ## 架构
 
-<p align="center"><img src="../assets/paper-harness.svg" width="100%" alt="论文图 7：Harness 的 Capture、Dispatch、Return 三阶段，贯穿其中的任务状态与播放确认" /><br /><sub>论文<a href="https://arxiv.org/html/2609.13814v1#S5.F7">图 7</a>：任务跟踪贯穿 Capture、Dispatch 和 Return。</sub></p>
+<p align="center"><img src="../assets/paper-harness.svg" width="100%" alt="论文图 7：Harness 的 Capture、Dispatch、Return 三阶段，贯穿其中的任务状态与播放确认" /><br /><sub>论文<a href="https://arxiv.org/pdf/2609.13814">图 7</a>：任务跟踪贯穿 Capture、Dispatch 和 Return。</sub></p>
 
 ### 1. Capture：捕获请求与稳定的上下文
 

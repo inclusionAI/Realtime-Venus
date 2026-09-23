@@ -1,12 +1,12 @@
 # Realtime-Venus-Harness
 
-**English** · [简体中文](README_ZH.md) · [Project](../README.md) · [Run the Demo](../demos/README.md) · [Paper](https://arxiv.org/html/2609.13814v1#S5)
+**English** · [简体中文](README_ZH.md) · [Project](../README.md) · [Run the Demo](../demos/README.md) · [Paper](https://arxiv.org/pdf/2609.13814)
 
 Harness captures `<delegate>...</delegate>` requests, runs background tasks, and returns results to the same conversation. It tracks task context, execution, progress, cancellation, continuation, and delivery.
 
 ## Architecture
 
-<p align="center"><img src="../assets/paper-harness.svg" width="100%" alt="Paper Figure 7: Capture, Dispatch, and Return stages of Realtime-Venus-Harness with work-state tracking and playback acknowledgment" /><br /><sub>Figure 7 from the <a href="https://arxiv.org/html/2609.13814v1#S5.F7">paper</a>. Work tracking spans Capture, Dispatch, and Return.</sub></p>
+<p align="center"><img src="../assets/paper-harness.svg" width="100%" alt="Paper Figure 7: Capture, Dispatch, and Return stages of Realtime-Venus-Harness with work-state tracking and playback acknowledgment" /><br /><sub>Figure 7 from the <a href="https://arxiv.org/pdf/2609.13814">paper</a>. Work tracking spans Capture, Dispatch, and Return.</sub></p>
 
 ### 1. Capture: a request with a stable context
 

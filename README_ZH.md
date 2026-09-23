@@ -14,7 +14,7 @@
 <a href="https://realtime-venus.github.io/"><img src="https://img.shields.io/badge/Project_Page-4c9aff.svg?logo=googlechrome&logoColor=white" alt="Project Page"></a>
 <a href="https://huggingface.co/inclusionAI/Realtime-Venus"><img src="https://img.shields.io/badge/Hugging_Face-Realtime--Venus-FFD21E.svg?logo=huggingface&logoColor=000" alt="Realtime-Venus on Hugging Face"></a>
 <a href="https://www.modelscope.cn/models/inclusionAI/Realtime-Venus"><img src="https://img.shields.io/badge/ModelScope-Realtime--Venus-624AFF.svg?logo=modelscope&logoColor=white" alt="Realtime-Venus on ModelScope"></a>
-<a href="https://arxiv.org/abs/2609.13814"><img src="https://img.shields.io/badge/arXiv-2609.13814-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"></a>
+<a href="https://arxiv.org/pdf/2609.13814"><img src="https://img.shields.io/badge/arXiv-2609.13814-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"></a>
 <a href="https://github.com/inclusionAI/Realtime-Venus"><img src="https://img.shields.io/badge/GitHub-Realtime--Venus-181717.svg?logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
@@ -41,7 +41,7 @@
 - **异步任务委托。** 遇到需要进一步推理或调用工具的请求，模型将自然语言任务交给 Harness 执行，实时对话继续进行。
 - **在原对话中交付结果。** Harness 准备回复内容，前端模型决定发言时机并生成语音；任务执行完成与结果实际播放分别跟踪。
 
-[论文](https://arxiv.org/html/2609.13814v1)介绍了模型家族、双 loop 运行机制、训练数据与评测。**本次源码发布提供 Omni 模型接入、可复用的 Harness 包，以及使用 Codex 任务后端的网页 Demo。** 网页的纯麦克风模式同样使用 Omni。
+[论文](https://arxiv.org/pdf/2609.13814)介绍了模型家族、双 loop 运行机制、训练数据与评测。**本次源码发布提供 Omni 模型接入、可复用的 Harness 包，以及使用 Codex 任务后端的网页 Demo。** 网页的纯麦克风模式同样使用 Omni。
 
 ## 快速开始
 
@@ -171,9 +171,9 @@ ssh -N -L 8032:127.0.0.1:8032 user@server
 
 ## 评测结果
 
-<p align="center"><img src="assets/paper-understanding.svg" width="100%" alt="论文图 1：Omni 视频理解与 Audio 音频理解的基准对比雷达图" /><br /><sub>图 1：视频与音频理解能力对比，来自<a href="https://arxiv.org/html/2609.13814v1#S0.F1">论文</a>。</sub></p>
+<p align="center"><img src="assets/paper-understanding.svg" width="100%" alt="论文图 1：Omni 视频理解与 Audio 音频理解的基准对比雷达图" /><br /><sub>图 1：视频与音频理解能力对比，来自<a href="https://arxiv.org/pdf/2609.13814">论文</a>。</sub></p>
 
-<p align="center"><img src="assets/paper-duplex.svg" width="100%" alt="论文图 2：用户打断响应以及不同重叠语音条件下的继续发言表现" /><br /><sub>图 2：全双工交互评测，来自<a href="https://arxiv.org/html/2609.13814v1#S0.F2">论文</a>。</sub></p>
+<p align="center"><img src="assets/paper-duplex.svg" width="100%" alt="论文图 2：用户打断响应以及不同重叠语音条件下的继续发言表现" /><br /><sub>图 2：全双工交互评测，来自<a href="https://arxiv.org/pdf/2609.13814">论文</a>。</sub></p>
 
 ## 代码结构
 
@@ -211,7 +211,7 @@ Realtime-Venus/
   eprint        = {2609.13814},
   archivePrefix = {arXiv},
   primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2609.13814}
+  url           = {https://arxiv.org/pdf/2609.13814}
 }
 ```
 

@@ -6,7 +6,7 @@
 
 ## 两个 loop，同一段对话
 
-<p align="center"><img src="../assets/paper-loops.svg" width="100%" alt="论文图 3：实时交互 loop 与异步能力执行 loop" /><br /><sub>论文<a href="https://arxiv.org/html/2609.13814v1#S3.F3">图 3</a>。Demo 启动时选择 Omni 或 Audio 作为交互前端。</sub></p>
+<p align="center"><img src="../assets/paper-loops.svg" width="100%" alt="论文图 3：实时交互 loop 与异步能力执行 loop" /><br /><sub>论文<a href="https://arxiv.org/pdf/2609.13814">图 3</a>。Demo 启动时选择 Omni 或 Audio 作为交互前端。</sub></p>
 
 **Interaction loop** 由所选前端模型处理流式媒体与语音；**Capability loop** 由 Harness 异步执行 `<delegate>...</delegate>` 请求，通过 `<backend>...</backend>` 回传结果，再由前端模型播报。
 

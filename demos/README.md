@@ -6,7 +6,7 @@ Browser demo with Realtime-Venus-Omni or Realtime-Venus-Audio and a Codex-backed
 
 ## Two loops, one conversation
 
-<p align="center"><img src="../assets/paper-loops.svg" width="100%" alt="Paper Figure 3: the interaction loop and the asynchronous capability loop" /><br /><sub>Figure 3 from the <a href="https://arxiv.org/html/2609.13814v1#S3.F3">paper</a>. The demo selects an Omni or Audio frontend at launch.</sub></p>
+<p align="center"><img src="../assets/paper-loops.svg" width="100%" alt="Paper Figure 3: the interaction loop and the asynchronous capability loop" /><br /><sub>Figure 3 from the <a href="https://arxiv.org/pdf/2609.13814">paper</a>. The demo selects an Omni or Audio frontend at launch.</sub></p>
 
 The selected frontend handles streaming media and speech in the **interaction loop**. In the **capability loop**, Harness executes `<delegate>...</delegate>` requests asynchronously and returns results through `<backend>...</backend>` for the frontend to speak.
 
